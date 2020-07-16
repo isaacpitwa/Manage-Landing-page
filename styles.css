@@ -16,10 +16,10 @@ body{
     max-width: 450px;
     padding: 3% 1.6%;
 }
-.content-intro h1{
+ h1, h3{
     color:hsl(228, 39%, 23%);
 }
-.content-intro p{
+ p{
     color:hsl(227, 12%, 61%)
 }
 .illustration-intro{
@@ -36,4 +36,24 @@ button.btn-action{
 button.btn-action:hover{
     opacity: 0.6;
     cursor: pointer;
+}
+
+/* Why manage section */
+.why-manage{
+    padding: 2% 5%;
+    display: flex;
+}
+.reason{
+    display: flex;
+}
+.reason .reason-text{
+    padding-left: 32px;
+}
+.reason-label-btn{
+    padding: 4px 21px;
+    border-radius: 16px;
+    box-shadow: 1px 1px 6px gray;
+    background-color: hsl(12, 88%, 59%);
+    border: 0;
+    color: hsl(0, 0%, 98%);
 }
