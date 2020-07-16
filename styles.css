@@ -1,3 +1,17 @@
 body{
     font-family: 'Be Vietnam',sans-serif;
 }
+.landing-section{
+    padding: 2% 5%;
+}
+.landing-intro{
+    display: flex;
+}
+button.btn-action{
+    border-radius: 32px;
+    box-shadow: 1px 1px 6px gray;
+    background-color: hsl(12, 88%, 59%);
+    border: 0;
+    color: white;
+    padding: 7px 20px;;
+}
