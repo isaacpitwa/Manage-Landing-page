@@ -3,15 +3,33 @@ body{
 }
 .landing-section{
     padding: 2% 5%;
+    background-image: url('./images/bg-tablet-pattern.svg');
+    background-repeat: no-repeat;
+    background-position: top -58% right -19%;
+    background-size: 41rem;
 }
 .landing-intro{
     display: flex;
+    padding: 5% 0;
+}
+.content-intro{
+    max-width: 450px;
+    padding: 3% 1.6%;
+}
+.content-intro h1{
+    color:hsl(228, 39%, 23%);
+}
+.content-intro p{
+    color:hsl(227, 12%, 61%)
+}
+.illustration-intro{
+    margin-left: auto;
 }
 button.btn-action{
     border-radius: 32px;
     box-shadow: 1px 1px 6px gray;
     background-color: hsl(12, 88%, 59%);
     border: 0;
-    color: white;
-    padding: 7px 20px;;
+    color: hsl(0, 0%, 98%);
+    padding: 10px 20px;;
 }
