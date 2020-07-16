@@ -33,3 +33,7 @@ button.btn-action{
     color: hsl(0, 0%, 98%);
     padding: 10px 20px;;
 }
+button.btn-action:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
