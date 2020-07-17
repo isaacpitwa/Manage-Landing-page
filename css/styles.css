@@ -85,3 +85,34 @@ text-align: center;
     left: 40%;
     border-radius: 4px;
 }
+/* banner */
+.banner{
+    background-color: hsl(12, 88%, 59%);
+    padding: 3% 5%;
+    margin: 10% 0 0 0;
+    background-attachment: url('../images/bg-tablet-pattern.svg');
+}
+.banner button{
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(12, 88%, 59%);
+
+}
+.banner h1 {
+    color: hsl(0, 0%, 98%);
+}
+.banner::after{
+    clear: both;
+    display: table;
+    content: "";
+}
+.banner-left{
+    float: left;
+     max-width: 454px;
+}
+.banner-right{
+    float: right; 
+    padding: 2%;
+}
+footer{
+    display: flex;
+}
