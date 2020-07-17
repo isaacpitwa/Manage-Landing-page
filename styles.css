@@ -16,7 +16,7 @@ body{
     max-width: 450px;
     padding: 8% 1.6%;
 }
- h1, h3{
+ h1, h3,h6{
     color:hsl(228, 39%, 23%);
 }
  p{
@@ -42,6 +42,10 @@ button.btn-action:hover{
 .why-manage{
     padding: 2% 5%;
     display: flex;
+    background-image: url('./images/bg-tablet-pattern.svg');
+    background-repeat: no-repeat;
+    background-position: bottom -48% left -16%;
+    background-size: 21rem;
 }
 .reason{
     display: flex;
@@ -56,4 +60,23 @@ button.btn-action:hover{
     background-color: hsl(12, 88%, 59%);
     border: 0;
     color: hsl(0, 0%, 98%);
+}
+/* Testimonial */
+.testimonial{
+text-align: center;
+}
+.slide{
+    background-color: hsl(0, 0%, 98%);
+    margin: 15px;
+    position: relative;
+    max-width: 450px;
+    padding: 2%;
+    padding-top: 4%;
+}
+.testimonial-image {
+    position: absolute;
+    width: 77px;
+    top: -24%;
+    left: 43%;
+    border-radius: 4px;
 }
