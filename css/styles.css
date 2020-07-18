@@ -1,0 +1,186 @@
+body{
+    font-family: 'Be Vietnam',sans-serif;
+}
+.nav-item a{
+    color: hsl(228, 39%, 23%) !important;
+}
+.nav-item a:hover{
+    opacity: 0.6;
+}
+.landing-section{
+    padding: 2% 5%;
+    background-image: url('../images/bg-tablet-pattern.svg');
+    background-repeat: no-repeat;
+    background-position: top -58% right -19%;
+    background-size: 41rem;
+}
+.landing-intro{
+    display: flex;
+    padding: 5% 0;
+}
+.content-intro{
+    max-width: 450px;
+    padding: 8% 1.6%;
+}
+ h1, h3,h6{
+    color:hsl(228, 39%, 23%);
+}
+ p{
+    color:hsl(227, 12%, 61%);
+    font-size: 16px;
+
+}
+a{
+    font-size: 16px;
+
+}
+.illustration-intro{
+    margin-left: auto;
+}
+button.btn-action{
+    border-radius: 32px;
+    box-shadow: 1px 1px 6px gray;
+    background-color: hsl(12, 88%, 59%);
+    border: 0;
+    color: hsl(0, 0%, 98%);
+    padding: 10px 20px;;
+}
+button.btn-action:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+/* Why manage section */
+.why-manage{
+    padding: 2% 5%;
+    display: flex;
+    background-image: url('../images/bg-tablet-pattern.svg');
+    background-repeat: no-repeat;
+    background-position: bottom -48% left -16%;
+    background-size: 21rem;
+}
+.reason{
+    display: flex;
+}
+.reason .reason-text{
+    padding-left: 32px;
+}
+.reason-label-btn{
+    padding: 4px 21px;
+    border-radius: 16px;
+    box-shadow: 1px 1px 6px gray;
+    background-color: hsl(12, 88%, 59%);
+    border: 0;
+    color: hsl(0, 0%, 98%);
+}
+/* Testimonial */
+.testimonial{
+text-align: center;
+}
+.testimonial-courasel{
+    padding: 5%;
+    display: flex;
+}
+.slide{
+    background-color: hsl(0, 0%, 98%);
+    margin: 15px;
+    position: relative;
+    max-width: 450px;
+    padding: 2%;
+    padding-top: 4%;
+    
+}
+.testimonial-image {
+    position: absolute;
+    width: 77px;
+    top: -20%;
+    left: 40%;
+    border-radius: 4px;
+}
+/* banner */
+.banner{
+    background-color: hsl(12, 88%, 59%);
+    padding: 3% 5%;
+    margin: 10% 0 0 0;
+    background-attachment: url('../images/bg-tablet-pattern.svg');
+}
+.banner button{
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(12, 88%, 59%);
+
+}
+.banner h1 {
+    color: hsl(0, 0%, 98%);
+}
+.banner::after{
+    clear: both;
+    display: table;
+    content: "";
+}
+.banner-left{
+    float: left;
+     max-width: 454px;
+}
+.banner-right{
+    float: right; 
+    padding: 2%;
+}
+/* Footer Section */
+footer{
+    display: flex;
+    padding: 3% 6%;
+    background-color: hsl(233, 12%, 13%);
+    color: hsl(0, 0%, 98%);
+    justify-content: space-between;
+}
+.col-one{
+    position: relative;
+
+}
+footer .col-one img{
+color: hsl(0, 0%, 98%);
+}
+
+ul.social-links{
+    position: absolute;
+    bottom: 0;
+    display: inline-flex;
+    left: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul.social-links li {
+    margin-right: 8px;
+}
+ul.social-links li a{
+    text-decoration: none;
+    color: hsl(0, 0%, 98%);
+}
+ul.helpful-links{
+    list-style: none;
+    margin:  0;
+}
+ul.helpful-links li a{
+    text-decoration: none;
+    color: hsl(0, 0%, 98%);
+}
+ul.helpful-links li {
+    margin: 6% 0;
+}
+.footer-form{
+    position: relative;
+}
+.footer-form input{
+    border: 0;
+    border-radius: 32px;
+    padding: 9px 22px;
+}
+.footer-form button{
+    box-shadow: none;
+}
+.footer-form p {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
