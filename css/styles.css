@@ -113,6 +113,34 @@ text-align: center;
     float: right; 
     padding: 2%;
 }
+/* Footer Section */
 footer{
     display: flex;
+    padding: 3% 5%;
+    background-color: hsl(233, 12%, 13%);
+    color: hsl(0, 0%, 98%);
+    justify-content: space-between;
+}
+footer .col-one img{
+color: hsl(0, 0%, 98%);
+}
+
+ul.helpful-links{
+    list-style: none;
+    margin:  0;
+}
+ul.helpful-links li a{
+    text-decoration: none;
+    color: hsl(0, 0%, 98%);
+}
+ul.helpful-links li {
+    margin: 6% 0;
+}
+.footer-form{
+    text-align: right;
+}
+.footer-form input{
+    border: 0;
+    border-radius: 32px;
+    padding: 9px 22px;
 }
