@@ -20,7 +20,13 @@ body{
     color:hsl(228, 39%, 23%);
 }
  p{
-    color:hsl(227, 12%, 61%)
+    color:hsl(227, 12%, 61%);
+    font-size: 16px;
+
+}
+a{
+    font-size: 16px;
+
 }
 .illustration-intro{
     margin-left: auto;
@@ -116,11 +122,14 @@ text-align: center;
 /* Footer Section */
 footer{
     display: flex;
-    padding: 3% 5%;
+    padding: 3% 6%;
     background-color: hsl(233, 12%, 13%);
     color: hsl(0, 0%, 98%);
     justify-content: space-between;
+}
+.col-one{
     position: relative;
+
 }
 footer .col-one img{
 color: hsl(0, 0%, 98%);
@@ -128,10 +137,12 @@ color: hsl(0, 0%, 98%);
 
 ul.social-links{
     position: absolute;
-    bottom: 1.5rem;
+    bottom: 0;
     display: inline-flex;
-    left: 2%;
+    left: 0;
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 ul.social-links li {
     margin-right: 8px;
