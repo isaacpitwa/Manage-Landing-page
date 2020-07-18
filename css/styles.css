@@ -1,9 +1,15 @@
 body{
     font-family: 'Be Vietnam',sans-serif;
 }
+.nav-item a{
+    color: hsl(228, 39%, 23%) !important;
+}
+.nav-item a:hover{
+    opacity: 0.6;
+}
 .landing-section{
     padding: 2% 5%;
-    background-image: url('./images/bg-tablet-pattern.svg');
+    background-image: url('../images/bg-tablet-pattern.svg');
     background-repeat: no-repeat;
     background-position: top -58% right -19%;
     background-size: 41rem;
@@ -48,7 +54,7 @@ button.btn-action:hover{
 .why-manage{
     padding: 2% 5%;
     display: flex;
-    background-image: url('./images/bg-tablet-pattern.svg');
+    background-image: url('../images/bg-tablet-pattern.svg');
     background-repeat: no-repeat;
     background-position: bottom -48% left -16%;
     background-size: 21rem;
@@ -169,6 +175,9 @@ ul.helpful-links li {
     border: 0;
     border-radius: 32px;
     padding: 9px 22px;
+}
+.footer-form button{
+    box-shadow: none;
 }
 .footer-form p {
     position: absolute;
