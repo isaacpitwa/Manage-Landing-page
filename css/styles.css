@@ -120,11 +120,26 @@ footer{
     background-color: hsl(233, 12%, 13%);
     color: hsl(0, 0%, 98%);
     justify-content: space-between;
+    position: relative;
 }
 footer .col-one img{
 color: hsl(0, 0%, 98%);
 }
 
+ul.social-links{
+    position: absolute;
+    bottom: 1.5rem;
+    display: inline-flex;
+    left: 2%;
+    list-style: none;
+}
+ul.social-links li {
+    margin-right: 8px;
+}
+ul.social-links li a{
+    text-decoration: none;
+    color: hsl(0, 0%, 98%);
+}
 ul.helpful-links{
     list-style: none;
     margin:  0;
