@@ -95,6 +95,12 @@ text-align: center;
     margin-top: 21%;
     
 }
+.slide:last-child{
+    padding-right: 0;
+}
+.slide:first-child{
+    padding-left: 0;
+}
 .testimonial-image {
     position: absolute;
     width: 77px;
