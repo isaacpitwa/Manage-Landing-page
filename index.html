@@ -36,7 +36,8 @@
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
         aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <!-- <span class="navbar-toggler-icon"></span> -->
+        <img src="./images/icon-hamburger.svg" alt="Menu"/>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
@@ -191,7 +192,8 @@
       <div class="footer-form">
         <form name="subscriptionForm">
         <input placeholder="Updates in your inbox…"  name="email" type="email" required/>
-        <button class="btn-action" name="submit" type="submit" >Go</button>
+        <button class="btn-action" name="submit" type="submit"  onclick="validateForm()">Go</button>
+        <p id="error-msg"></p>
         </form>
         <p>Copyright 2020. All Rights Reserved</p>
       </div>

@@ -201,3 +201,51 @@ ul.helpful-links li {
     bottom: 0;
     right: 0;
 }
+.error-msg{
+    color: red;
+}
+
+/* MObile styles */
+
+@media only screen and (max-width: 375px){
+    .landing-section{
+        text-align: center;
+        background-size: 21rem;
+        background-position: top -4% right 259%;
+    }
+    .landing-intro{
+        flex-direction: column-reverse;
+    }
+    .illustration-intro img{
+        width: 100%;
+    }
+    .why-manage{
+        flex-direction: column;
+        text-align: center;
+    }
+    footer{
+        flex-direction: column-reverse;
+    }
+    .navbar-toggler{
+        border: 0;
+    }
+    .banner{
+        background-size: 42rem;
+        background-position: top;
+        text-align: center;
+    }
+    .banner-right{
+       
+     padding-right: 30%;
+    }
+    .col-one{
+        text-align: center;
+    }
+    footer .col-one img{
+        margin-top: 40%;
+    }
+    footer .col-one .social-links{
+        bottom: 60%;
+        left: 21%;
+    }
+}
