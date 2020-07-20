@@ -201,3 +201,76 @@ ul.helpful-links li {
     bottom: 0;
     right: 0;
 }
+.error-msg{
+    color: red;
+}
+.links-container{
+    display: flex;
+}
+
+/* MObile styles */
+
+@media only screen and (max-width: 375px){
+    .landing-section{
+        text-align: center;
+        background-size: 21rem;
+        background-position: top -4% right -100%;
+        }
+    .landing-intro{
+        flex-direction: column-reverse;
+    }
+    .illustration-intro img{
+        width: 100%;
+    }
+    .why-manage{
+        flex-direction: column;
+        text-align: center;
+    }
+    footer{
+        flex-direction: column-reverse;
+    }
+    .navbar-toggler{
+        border: 0;
+    }
+    .banner{
+        background-size: 42rem;
+        background-position: top;
+        text-align: center;
+    }
+    .banner-right{
+     padding-right: 30%;
+    }
+    .col-one{
+        text-align: center;
+    }
+    footer .col-one img{
+        margin-top: 40%;
+        margin-bottom: 20%;
+    }
+    footer .col-one .social-links{
+        bottom: 75%;
+        left: 21%;
+    }
+    .footer-form p {
+        bottom: -543%;
+        left: 13%;
+    }
+    .footer-form{
+        padding-top: 8%;
+    }
+    .footer-form form {
+        display: flex;
+    }
+    .footer-form form button{
+        margin-left: 3%;
+    }
+    .reason-text h6{
+        background-color: hsl(13, 100%, 96%);
+    }
+    .links-container{
+        margin: 8% 0;
+    }
+    .ul.social-links li{
+        margin-right: 19px;
+    }
+}

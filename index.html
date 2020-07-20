@@ -36,7 +36,8 @@
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
         aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <!-- <span class="navbar-toggler-icon"></span> -->
+        <img src="./images/icon-hamburger.svg" alt="Menu"/>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
@@ -177,21 +178,24 @@
 
         </ul>
       </div>
-      <ul class="helpful-links">
-        <li> <a href="#">Home</a></li>
-        <li> <a href="#">Pricing</a></li>
-        <li> <a href="#">Products</a></li>
-        <li><a href="#">About Us</a></li>
-      </ul>
-      <ul class="helpful-links">
-        <li> <a href="#">Careers</a></li>
-        <li> <a href="#">Community</a></li>
-        <li> <a href="#"> Privacy Policy</a></li>
-      </ul>
+      <div class="links-container">
+        <ul class="helpful-links">
+          <li> <a href="#">Home</a></li>
+          <li> <a href="#">Pricing</a></li>
+          <li> <a href="#">Products</a></li>
+          <li><a href="#">About Us</a></li>
+        </ul>
+        <ul class="helpful-links">
+          <li> <a href="#">Careers</a></li>
+          <li> <a href="#">Community</a></li>
+          <li> <a href="#"> Privacy Policy</a></li>
+        </ul>
+      </div>
       <div class="footer-form">
         <form name="subscriptionForm">
         <input placeholder="Updates in your inbox…"  name="email" type="email" required/>
-        <button class="btn-action" name="submit" type="submit" >Go</button>
+        <button class="btn-action" name="submit" type="submit"  onclick="validateForm()">Go</button>
+        <p id="error-msg"></p>
         </form>
         <p>Copyright 2020. All Rights Reserved</p>
       </div>

@@ -21,10 +21,13 @@ $(document).ready(function () {
 function validateForm() {
   const re = /\S+@\S+\.\S+/;
   var x = document.forms["subscriptionForm"]["email"].value;
+  var text =""
   if (x == "") {
-    return "Email Address is Required";
+    text= "Email Address is Required";
   }
   if(!re.test(x)){
-    return "Email Address is Invalid"
+    text = "Email Address is Invalid"
+    
   }
+  document.getElementById("error-msg").innerHTML = text;
 }
