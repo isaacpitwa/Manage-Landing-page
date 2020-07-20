@@ -101,13 +101,10 @@ text-align: center;
 .banner{
     padding: 3% 5%;
     margin: 10% 0 0 0;
-    /* background-attachment: url('../images/bg-tablet-pattern.svg'); */
-
-    background: url('../images/bg-tablet-pattern.svg') left 9% bottom 85% no-repeat ,
-                url('../images/bg-tablet-pattern.svg') right -34% bottom -20% no-repeat,
-                hsl(12, 88%, 59%)
+    background: url('../images/bg-simplify-section-desktop.svg') bottom right 20%  hsl(12, 88%, 59%) 
     ;
-    background-size: 30rem,28rem;
+    background-size: 82%;
+    background-repeat: no-repeat;
 
 }
 .banner button{
