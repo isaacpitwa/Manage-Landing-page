@@ -50,6 +50,10 @@ button.btn-action:hover{
     cursor: pointer;
 }
 
+.landing-section button.btn-action:hover{
+    box-shadow: 2px 2px 10px hsl(12, 88%, 59%);
+}
+
 /* Why manage section */
 .why-manage{
     padding: 2% 5%;
@@ -78,22 +82,23 @@ button.btn-action:hover{
 text-align: center;
 }
 .testimonial-courasel{
-    padding: 5%;
+    padding: 5% 0;
     display: flex;
 }
 .slide{
     background-color: hsl(0, 0%, 98%);
     margin: 15px;
     position: relative;
-    max-width: 450px;
+    max-width: 500px;
     padding: 2%;
-    padding-top: 4%;
+    padding-top: 8%;
+    margin-top: 21%;
     
 }
 .testimonial-image {
     position: absolute;
     width: 77px;
-    top: -20%;
+    top: -32%;
     left: 40%;
     border-radius: 4px;
 }
