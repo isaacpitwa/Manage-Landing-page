@@ -99,10 +99,16 @@ text-align: center;
 }
 /* banner */
 .banner{
-    background-color: hsl(12, 88%, 59%);
     padding: 3% 5%;
     margin: 10% 0 0 0;
-    background-attachment: url('../images/bg-tablet-pattern.svg');
+    /* background-attachment: url('../images/bg-tablet-pattern.svg'); */
+
+    background: url('../images/bg-tablet-pattern.svg') left 9% bottom 85% no-repeat ,
+                url('../images/bg-tablet-pattern.svg') right -34% bottom -20% no-repeat,
+                hsl(12, 88%, 59%)
+    ;
+    background-size: 30rem,28rem;
+
 }
 .banner button{
     background-color: hsl(0, 0%, 98%);
