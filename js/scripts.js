@@ -17,3 +17,14 @@ $(document).ready(function () {
   });
 
 });
+
+function validateForm() {
+  const re = /\S+@\S+\.\S+/;
+  var x = document.forms["subscriptionForm"]["email"].value;
+  if (x == "") {
+    return "Email Address is Required";
+  }
+  if(!re.test(x)){
+    return "Email Address is Invalid"
+  }
+}
