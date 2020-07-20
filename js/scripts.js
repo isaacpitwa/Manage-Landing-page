@@ -1,14 +1,30 @@
-var slideIndex = 0;
-showSlides();
+$(document).ready(function () {
 
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
+  $(".owl-carousel").owlCarousel({
+    autoPlay: 3000,
+    items: 3,
+    itemsDesktop: [1199, 3],
+    itemsDesktopSmall: [979, 3],
+    center: true,
+    nav: true,
+    loop: true,
+    responsive: {
+      600: {
+        items: 3
+      }
+    }
+
+  });
+
+});
+
+function validateForm() {
+  const re = /\S+@\S+\.\S+/;
+  var x = document.forms["subscriptionForm"]["email"].value;
+  if (x == "") {
+    return "Email Address is Required";
   }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
+  if(!re.test(x)){
+    return "Email Address is Invalid"
+  }
 }

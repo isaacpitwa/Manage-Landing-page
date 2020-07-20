@@ -50,6 +50,10 @@ button.btn-action:hover{
     cursor: pointer;
 }
 
+.landing-section button.btn-action:hover{
+    box-shadow: 2px 2px 10px hsl(12, 88%, 59%);
+}
+
 /* Why manage section */
 .why-manage{
     padding: 2% 5%;
@@ -78,36 +82,49 @@ button.btn-action:hover{
 text-align: center;
 }
 .testimonial-courasel{
-    padding: 5%;
+    padding: 5% 0;
     display: flex;
 }
 .slide{
     background-color: hsl(0, 0%, 98%);
     margin: 15px;
     position: relative;
-    max-width: 450px;
+    max-width: 500px;
     padding: 2%;
-    padding-top: 4%;
+    padding-top: 8%;
+    margin-top: 21%;
     
+}
+.slide:last-child{
+    padding-right: 0;
+}
+.slide:first-child{
+    padding-left: 0;
 }
 .testimonial-image {
     position: absolute;
     width: 77px;
-    top: -20%;
+    top: -32%;
     left: 40%;
     border-radius: 4px;
 }
 /* banner */
 .banner{
-    background-color: hsl(12, 88%, 59%);
     padding: 3% 5%;
     margin: 10% 0 0 0;
-    background-attachment: url('../images/bg-tablet-pattern.svg');
+    background: url('../images/bg-simplify-section-desktop.svg') bottom right 20%  hsl(12, 88%, 59%) 
+    ;
+    background-size: 82%;
+    background-repeat: no-repeat;
+
 }
 .banner button{
     background-color: hsl(0, 0%, 98%);
     color: hsl(12, 88%, 59%);
 
+}
+.banner button:hover{
+    box-shadow: 2px 2px 10px hsl(12, 88%, 59%);
 }
 .banner h1 {
     color: hsl(0, 0%, 98%);
