@@ -243,9 +243,20 @@ ul.helpful-links li {
     }
     footer .col-one img{
         margin-top: 40%;
+        margin-bottom: 10%;
     }
     footer .col-one .social-links{
         bottom: 60%;
         left: 21%;
+    }
+    .footer-form p {
+        bottom: -910%;
+    }
+    .footer-form{
+        padding-top: 3%;
+    }
+    .footer-form form {
+        display: flex;
+        
     }
 }
