@@ -214,8 +214,8 @@ ul.helpful-links li {
     .landing-section{
         text-align: center;
         background-size: 21rem;
-        background-position: top -4% right 259%;
-    }
+        background-position: top -4% right -100%;
+        }
     .landing-intro{
         flex-direction: column-reverse;
     }
@@ -238,7 +238,6 @@ ul.helpful-links li {
         text-align: center;
     }
     .banner-right{
-       
      padding-right: 30%;
     }
     .col-one{
@@ -254,13 +253,16 @@ ul.helpful-links li {
     }
     .footer-form p {
         bottom: -543%;
+        left: 13%;
     }
     .footer-form{
         padding-top: 8%;
     }
     .footer-form form {
         display: flex;
-        
+    }
+    .footer-form form button{
+        margin-left: 3%;
     }
     .reason-text h6{
         background-color: hsl(13, 100%, 96%);
