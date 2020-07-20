@@ -204,6 +204,9 @@ ul.helpful-links li {
 .error-msg{
     color: red;
 }
+.links-container{
+    display: flex;
+}
 
 /* MObile styles */
 
@@ -243,20 +246,29 @@ ul.helpful-links li {
     }
     footer .col-one img{
         margin-top: 40%;
-        margin-bottom: 10%;
+        margin-bottom: 20%;
     }
     footer .col-one .social-links{
-        bottom: 60%;
+        bottom: 75%;
         left: 21%;
     }
     .footer-form p {
-        bottom: -910%;
+        bottom: -543%;
     }
     .footer-form{
-        padding-top: 3%;
+        padding-top: 8%;
     }
     .footer-form form {
         display: flex;
         
+    }
+    .reason-text h6{
+        background-color: hsl(13, 100%, 96%);
+    }
+    .links-container{
+        margin: 8% 0;
+    }
+    .ul.social-links li{
+        margin-right: 19px;
     }
 }
